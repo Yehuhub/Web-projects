@@ -26,3 +26,7 @@ npm start
 ### Running
 After the server starts, navigate to:  
 http://localhost:3000
+
+## Contact
+yhrcch@gmail.com  
+https://www.yehuraccah.com
