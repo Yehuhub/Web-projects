@@ -8,3 +8,6 @@ The app was built using vanilla JS and Bootstrap for responsive styling.
 A browser.
 ### Running
 Open index.html in a browser.
+
+## Tehcnologies Used
+JavaScript, Bootstrap, HTML
