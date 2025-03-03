@@ -25,4 +25,4 @@ npm start
 ```
 ### Running
 After the server starts, navigate to:  
-[localhost:3000](localhost:3000)
+http://localhost:3000
