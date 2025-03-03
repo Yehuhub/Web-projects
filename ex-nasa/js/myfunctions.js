@@ -2,10 +2,8 @@
   "use strict";
 
   //---------------------------GLOBAL VARIABLES------------------------------------
-  // API_KEY is the one used in the code, change names if limit runs out
-  const API_KEY = "QIXpJ8oMiaaEjm7Lf1pUJyFQOypbIXm5yhhPylPK";
-  const API_KEY2 = "9ZdGnkCjNncu3gHRnp1rWCIwika68LvFICUBRqkY";
-  const API_KEY3 = "B8Qwz7xdOULAuhjNcTgzCLUOHBpxScGKbqg60yym";
+  // Please replace API_KEY with your own api key (more info in readme)
+  const API_KEY = "DEMO_KEY";
   const API_URL = "https://api.nasa.gov/mars-photos/api/v1/rovers";
 
   //---------------------------DOM MANIPULATION MODULE------------------------------------
