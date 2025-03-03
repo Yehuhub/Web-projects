@@ -12,9 +12,14 @@ A full chat website including registration, login, and a multiple user chat.
 - **Backend**: Node.js, Express.js
 - **Database**: SQLite(sequelize ORM)
 
-## Installation
+## Getting Started
+### Prerequisites 
+- Node.js
+- npm
+### Installation
 ```
 git clone https://github.com/Yehuhub/Web-projects.git
 cd chat-website
 npm istall
-npm start```
+npm start
+```
