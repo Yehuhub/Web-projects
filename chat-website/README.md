@@ -23,3 +23,5 @@ cd chat-website
 npm istall
 npm start
 ```
+### Running
+Go to "https://localhost:3000"
