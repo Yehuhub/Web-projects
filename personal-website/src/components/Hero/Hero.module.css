@@ -1,0 +1,125 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 900;
+    font-family: var(--font-bebas);
+    background: var(--color-text);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+
+.description {
+    font-size: 23px;
+    font-family: var(--font-manrope);
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+/* need to somehow make the font bold */
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    font-family: var(--font-manrope);
+    margin-bottom: 40px;
+}
+
+.heroImg {
+    width: 40%;
+    z-index: 1;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(255, 255, 255, 0.03);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 250px;
+    min-height: 350px;
+    top: 246px;
+    right: -25vw;
+    border: 764px;
+    background: rgba(255, 255, 255, 0.05);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.img {
+    width: 18px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.link{
+    background-color: var(--color-dark);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .heroImg {
+        margin-top: 50px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .title{
+        font-weight: 100;
+        line-height: 100px;
+    }
+}

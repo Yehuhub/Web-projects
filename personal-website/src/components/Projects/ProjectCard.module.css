@@ -1,0 +1,65 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* background-color: var(--color-itembg); */
+    background: linear-gradient(0deg, var(--color-itembg) 0%, var(--color-bg) 50%);
+    box-shadow: 0 16px 14px 0 #111010;
+    padding: 18px 24px;
+    max-width: 345px;
+}
+
+.image {
+    margin-bottom: 26px;
+}
+
+.title {
+    
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.description{
+    margin-top: 6px;
+    font-family: var(--font-manrope);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skill {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 100px;
+    background-color: var(--color-dark);
+    padding: 2px 22px;
+}
+
+.links{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.link {
+    font-family: var(--font-manrope);
+    text-decoration: none;
+    color: var(--color-bg);
+    font-size: 20px;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 1px 22px;
+}

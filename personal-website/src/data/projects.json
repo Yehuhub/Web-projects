@@ -1,0 +1,10 @@
+[
+    {
+      "title": "Legend of Zelda Clone",
+      "imageSrc": "projects/legendofzelda.jpeg",
+      "description": "A rendition of the classic game made using C++ and SFML as graphics library.",
+      "skills": ["C++", "SFML", "Git"],
+      "demo": "https://www.youtube.com/watch?v=jM9-a42St-8",
+      "source": "https://github.com/Yehuhub/Legend_of_Zelda"
+    }
+  ]

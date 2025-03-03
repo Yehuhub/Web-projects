@@ -1,0 +1,14 @@
+:root{
+    /* Colors */
+    --color-text: #FFF;
+    --color-primary: #D3E97A;
+    --color-secondary: #606060;
+    --color-bg: #222222;
+    --color-itembg: #0e0e0e;
+    --color-dark: #464646;
+    
+    /* Fonts */
+    --font-manrope: "Manrope";
+    --font-bebas: "Bebas Neue";
+
+}

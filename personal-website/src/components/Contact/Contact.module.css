@@ -1,0 +1,57 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-color: var(--color-itembg); */
+    display:list-item;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: 10px;
+}
+
+.text h2 {
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 1.25px;
+}
+
+.text p {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+.text a {
+    font-family: var(--font-manrope);
+    font-size: 18px;
+    font-weight: 100px;
+    color: var(--color-text);
+}
+
+.linkedInImg{
+    width: 40px;
+    height: auto;
+}
+.githubImg{
+    width: 40px;
+    height: auto;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
