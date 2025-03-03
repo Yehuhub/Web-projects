@@ -24,4 +24,5 @@ npm istall
 npm start
 ```
 ### Running
-Go to "https://localhost:3000"
+After the server starts, navigate to:  
+https://localhost:3000
